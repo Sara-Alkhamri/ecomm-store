@@ -29,7 +29,6 @@ export default class Product extends Component {
                 >
                   {inCart ? (
                     <p className="text-capitalized mb-0" disabled>
-                      {" "}
                       in cart
                     </p>
                   ) : (
