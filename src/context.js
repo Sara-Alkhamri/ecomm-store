@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { storeProducts, detailProduct } from "./data";
+
 const ProductContext = React.createContext();
 //provider
 //consumer
@@ -9,7 +10,7 @@ class ProductProvider extends Component {
     products: storeProducts,
     detailProduct: detailProduct
   };
-  handelDetail = () => {
+  handleDetail = () => {
     console.log("Hello from Detail");
   };
 
@@ -21,7 +22,7 @@ class ProductProvider extends Component {
       <ProductContext.Provider
         value={{
           ...this.state,
-          handelDetail: this.handelDetail,
+          handleDetail: this.handleDetail,
           addToCart: this.addToCart
         }}
       >
