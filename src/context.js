@@ -82,8 +82,8 @@ class ProductProvider extends Component {
     console.log("This is the increment method");
   };
 
-  decremnt = id => {
-    console.log("This is the decremnt method");
+  decrement = id => {
+    console.log("This is the decrement method");
   };
 
   removeItem = id => {
@@ -104,7 +104,7 @@ class ProductProvider extends Component {
           openModal: this.openModal,
           closeModal: this.closeModal,
           increment: this.increment,
-          decremnt: this.decremnt,
+          decrement: this.decrement,
           removeItem: this.removeItem,
           clearCart: this.clearCart
         }}
