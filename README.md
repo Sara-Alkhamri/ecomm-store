@@ -1,4 +1,4 @@
-e-commerce app built from scratch with React, Bootstrap, and Styled Components and deployed via Netlify.
+e-commerce app built from scratch with React, Bootstrap, and Styled Components.
 
 Deployed site: https://ecomm-store.netlify.app/
 
