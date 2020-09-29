@@ -1,4 +1,4 @@
-e-commerce app built from scratch with React, Bootstrap, and Styled Components.
+e-commerce app built from scratch with React, Bootstrap, Styled Components, and Paypal checkout.
 
 Deployed site: https://ecomm-store.netlify.app/
 
