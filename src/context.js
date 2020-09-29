@@ -31,7 +31,7 @@ class ProductProvider extends Component {
     });
   };
 
-  // method taht will get item by id
+  // method that will get item by id
   getItem = id => {
     const product = this.state.products.find(item => item.id === id);
     return product;
